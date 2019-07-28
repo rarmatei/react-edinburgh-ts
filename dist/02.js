@@ -8,8 +8,8 @@ function printName(person) {
 printName({ age: 32, name: 'John' });
 const people = [
     ali,
-    { name: 'Jemma', age: 25 }
+    { name: 'Jemma3', age: 25 }
 ];
 people.map((index, person) => {
-    return person.name.toUpperCase();
+    //   return person.name.toUpperCase();
 });
