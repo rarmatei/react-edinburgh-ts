@@ -5,6 +5,8 @@
     "outDir": "./dist",
     "experimentalDecorators": true
   },
-  "include": ["./**/*"],
-
+  "include": ["./**/*"]
 }
+
+
+// ./src/tsconfig.json

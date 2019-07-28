@@ -4,14 +4,14 @@ const firstName = "Chris";
 firstName.includes("hr");
 
 //MAKE this a more real example
-function thisReturnTrue() {
+function isMyComputerOn() {
   return true;
 }
 
-if (thisReturnTrue() === true) {
-  console.log("I SHOULD SEE THIS");
+if (isMyComputerOn === true) {
+  console.log("YOUR COMPUTER IS ON");
 } else {
-  console.log("THIS SHOULD NOT HAPPEN...");
+  console.log("IT'S OFF!");
 }
 
 //add lodash and talk about npm install @types/project-name if it doesn't come with
