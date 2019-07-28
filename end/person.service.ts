@@ -1,6 +1,11 @@
-let ali;
+import { IPerson } from "Person";
 
-function printName(person) {
+let ali: IPerson = {
+    age: 26,
+    name: 'Ali'
+};
+
+function printName(person: IPerson) {
     console.log(person.name);
 }
 
@@ -29,3 +34,7 @@ const people = [
     ali,
     {name: 'Jemma3', age: 25}
 ];
+
+let names = people.map((person, index) => {
+    return person.name;
+})
