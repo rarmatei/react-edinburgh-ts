@@ -1,6 +1,20 @@
 const firstCat = "Felix";
+
+
+
 const secondCat = "Yuki";
 const allCats = [firstCat, secondCat];
+
+
+
+
+
+
+
+
+
+
+
 
 function isMyComputerOn() {
   return true;
